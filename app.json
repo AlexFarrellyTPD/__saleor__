@@ -16,7 +16,7 @@
     "NPM_CONFIG_PRODUCTION": "false",
     "ALLOWED_HOSTS": {
       "description": "Comma-separated list of hosts",
-      "value": ".herokuapp.com"
+      "value": "tpd-dev.herokuapp.com"
     },
     "DEFAULT_FROM_EMAIL": "noreply@example.com",
     "SECRET_KEY": {
