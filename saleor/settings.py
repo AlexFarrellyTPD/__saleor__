@@ -438,6 +438,8 @@ PLAYGROUND_ENABLED = get_bool_from_env("PLAYGROUND_ENABLED", True)
 ALLOWED_HOSTS = [
     '0.0.0.0',
     'tpd-dev.herokuapp.com',
+    'tpd-development.herokuapp.com',
+    'tpd-staging.herokuapp.com',
     '127.0.0.1'
 ]
 ALLOWED_GRAPHQL_ORIGINS = get_list(os.environ.get("ALLOWED_GRAPHQL_ORIGINS", "*"))
